@@ -112,7 +112,7 @@ class SketchField extends PureComponent {
             let opts = {
                 left: Math.random() * (canvas.getWidth() - oImg.width * 0.5),
                 top: Math.random() * (canvas.getHeight() - oImg.height * 0.5),
-                scale: 0.5
+                scale: 1.0
             };
             Object.assign(opts, options);
             oImg.scale(opts.scale);
